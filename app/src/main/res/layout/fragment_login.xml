@@ -38,20 +38,28 @@
         android:layout_marginTop="@dimen/button_margin_top"
         android:text="@string/login_button" />
 
-    <Button
-        android:id="@+id/go_for_sign_up_button"
-        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/button_margin_top"
-        android:text="@string/go_for_sign_up_button" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/forgot_password_button"
-        style="@style/Base.Widget.AppCompat.Button.Borderless"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/button_margin_top"
-        android:text="@string/forgot_password_button"
-        android:textColor="@color/colorPrimaryDark" />
+        <Button
+            android:id="@+id/forgot_password_button"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/forgot_password_button"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/go_for_sign_up_button"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/forgot_password_button"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:text="@string/go_for_sign_up_button" />
+
+    </RelativeLayout>
+
 </LinearLayout>

@@ -5,5 +5,5 @@
     <string name="password_hint">Senha</string>
     <string name="login_button">Login</string>
     <string name="go_for_sign_up_button">Cadastre-se</string>
-    <string name="forgot_password_button">Esqueceu sua senha?</string>
+    <string name="forgot_password_button">Esqueci minha senha</string>
 </resources>
